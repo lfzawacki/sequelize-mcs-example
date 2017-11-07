@@ -1,0 +1,10 @@
+{
+  "name": "sequelize-test",
+  "version": "0.0.1",
+  "scripts": {},
+  "devDependencies": {
+    "pg": "^7.3.0",
+    "sequelize": "^4.13.2",
+    "sequelize-cli": "^3.0.0"
+  }
+}
