@@ -21,6 +21,14 @@ To initialize/stop each database you can do
 
     sudo service postgresql@9.5-test1 <start|stop|restart>
 
+#### Extra configs
+
+    $ psql -p 5433 -W -f /usr/share/postgresql/9.5/extension/pgpool-recovery.sql template1
+    $ psql -p 5433 -W -f /usr/share/postgresql/9.5/extension/pgpool-regclass.sql template1
+
+    $ psql -p 5434 -W -f /usr/share/postgresql/9.5/extension/pgpool-recovery.sql template1
+    $ psql -p 5434 -W -f /usr/share/postgresql/9.5/extension/pgpool-regclass.sql template1
+
 #### Configure pg_hba.conf in each database
 
 You should allow connections from the ip addresses accessing the databases
