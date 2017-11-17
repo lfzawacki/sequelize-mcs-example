@@ -1,9 +1,10 @@
 {
   "development": {
     "username": "postgres",
-    "password": "admin",
+    "password": "postgres",
     "database": "mcs_db",
-    "host": "webdev",
+    "host": "10.0.3.139",
+    "port": "5432",
     "dialect": "postgres"
   },
   "test": {
